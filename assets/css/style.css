@@ -1,0 +1,59 @@
+body {
+	background-color: #d6f5f2;
+}
+
+h1 {
+	font-family: 'Courier New', Courier;
+	font-size: 1.6em;
+	color: #454545;
+}
+
+.name {
+	font-family: 'Courier New', Courier;
+	font-size: 1em;
+	font-weight: 900;	
+	color: #cec6c3;
+	text-shadow: 1px 1px #000;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+
+}
+.content-max {
+	width: 700px;
+}
+
+.title-content {
+	width: 680px;
+	margin: 20px 0px 20px 20px;
+}
+
+.line {
+	width: 100px;
+	height: 5px;
+	background-color: #454545;
+}
+
+.description-content {
+	width: 680px;
+}
+
+.coder {
+	width: 200px;
+	height: 200px;
+	margin: 20px 12px;
+	position: relative;
+	float: left;
+}
+
+.coder img {
+	width: 100%;
+	border-radius: 10%;
+	-moz-border-radius: 10%;
+	-webkit-border-radius: 10%;
+	border: 1px dashed #009688;
+}
+
+.coder img:hover {
+	opacity: 0.8;
+}
